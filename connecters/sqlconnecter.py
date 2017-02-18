@@ -14,7 +14,7 @@ class sqlconnecter:
     def version():
         host = "localhost"
         user = "root"
-        psd = "python@dl3sca3301"
+        psd = "DB PASSWORD HERE"
         db = "pluto"
         db_connection = pymysql.connect(host, user, psd, db)
         cursor = db_connection.cursor()
