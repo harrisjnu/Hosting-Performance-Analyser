@@ -59,7 +59,7 @@ class sqlconnecter:
     def hostdata(outdata):
         host = "localhost"
         user = "root"
-        psd = "python@dl3sca3301"
+        psd = "DB PASSWORD HERE"
         db = "pluto"
         table = "hostdata"
         db_connection = pymysql.connect(host, user, psd, db)
