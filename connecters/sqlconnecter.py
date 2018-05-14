@@ -29,8 +29,8 @@ class sqlconnecter:
         # print(str(outdata))
         host = "localhost"
         user = "root"
-        psd = "python@dl3sca3301"
-        db = "pluto"
+        psd = "***********"
+        db = "######"
         table = "crawldata"
         # myList = ','.join(map(str, myList))
         mail_list = ', '.join(map(str, outdata[6]))
