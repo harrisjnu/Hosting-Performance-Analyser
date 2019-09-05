@@ -1,2 +1,3 @@
 # Pluto
 Hosting and Latency Analyser with SQL Connector.
+Python3 written code and program is designed to crawl specified domain, read and analyse the returned code, latency in downloading page contents. The program is capable of inspecting contents types, return codes and query WHOIS database to assess and store owner of the domain and IP address. The code was successfully tested on top 10M domain list available on internet and built database reporting various parameters of the crawled website.
